@@ -1,5 +1,12 @@
 # Consul demo sample app
 
+Consul 101 App(service identity & service discovery)
+![Consul 101 App](./images/consul-101-app.png)
+
+Upstream & Downstream concept consul app
+![Upstream & Downstream concept consul app](./images/consul-101app-upstream-downstream.png)
+
+
 Run each service in a separate terminal.
 
 ## 1. Start the counting service

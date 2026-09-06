@@ -1,5 +1,7 @@
 # Consul Demo App on EC2
 
+![Consul App on EC2](./images/deploy-consul-app-on-ec2.png)
+
 This deployment uses two EC2 instances:
 
 - **Dashboard service:** runs in a **public subnet** at `54.255.9.143:8080` so users can access the application.
@@ -42,6 +44,11 @@ scp counting-service ubuntu@172.16.2.27:/home/ubuntu/
 ## 3. Configure the counting service first
 
 On the private counting-service instance (`172.16.2.27`), create the unit file:
+
+SSH from dashboard server to consul server
+```bash
+ssh ubuntu@172.16.2.27
+```
 
 ```bash
 sudo vim /etc/systemd/system/counting-service.service
