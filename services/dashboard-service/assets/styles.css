@@ -17,14 +17,8 @@
 */
 
 body {
-  background: #c62a71;
-  background: -moz-linear-gradient(-45deg, #c62a71 0%, #771944 100%);
-  background: -webkit-linear-gradient(-45deg, #c62a71 0%,#771944 100%);
-  background: linear-gradient(135deg, #c62a71 0% ,#771944 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c62a71', endColorstr='#771944',GradientType=1 );
-
-  /* height: 100%; /* Firefox background fix */ */
-
+  /* Dark purple keeps the light dashboard text easy to read. */
+  background-color: #3b0764;
   margin: 0;
   padding: 1em;
 }
@@ -35,12 +29,12 @@ p {
 }
 
 h1 {
-  color: #f9ebf2;
+  color: #ffffff;
   font-weight: normal;
 }
 
 #line {
-  border-bottom: 10px solid #771944;
+  border-bottom: 10px solid #c4b5fd;
   width: 4em;
 }
 
